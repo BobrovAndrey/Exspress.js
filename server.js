@@ -5,4 +5,10 @@ var app = express();
 app.get('/', function (req, res, next) {
     res.send('Tour Booking API');
 });
-app.listen(process.env.PORT || 8091, function () { return console.log('Server started...'); });
+app.get('/tours', function (req, res, next) {
+    res.send('Geta a list of tours...');
+});
+app.post('/tours', function (req, res, next) {
+    res.send('Add a new tour....');
+});
+app.listen(process.env.PORT || 8091, function () { return console.log('Server started...TEST'); });
