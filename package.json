@@ -4,18 +4,19 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
-    "start": "server.ts"
+    "start-server": "ts-node server.ts",
+    "start": "nodemon -e ts -w ./ -x npm run start-server"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/express": "^4.11.1",
-    "@types/node": "^10.0.4",
-    "nodemon": "^1.17.4",
-    "ts-node": "^6.0.3",
-    "typescript": "^2.8.3"
+    "@types/express": "^4.16.1",
+    "@types/node": "^10.12.23",
+    "nodemon": "^1.18.9",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.4"
   }
 }
