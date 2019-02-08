@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
-    "start-server": "server.ts",
-    "start": "nodemon -e ts -w ./ -x npm run start-server"
+    "start": "server.ts"
   },
   "author": "",
   "license": "ISC",
