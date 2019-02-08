@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.ts",
   "scripts": {
-    "build": "tsc",
     "start-server": "ts-node server.ts",
     "start": "nodemon -e ts -w ./ -x npm run start-server"
   },
